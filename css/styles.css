@@ -42,9 +42,8 @@ input {
 .search-box {
   position: relative;
   margin: 0 auto;
-  width: 40%;
+  width: 90%;
   height: 45px;
-  width: 480px;
 }
 
 .search-icon {
@@ -66,7 +65,7 @@ ul {
 }
 
 li {
-  flex-basis: 25%;
+  flex-basis: 50%;
   padding: 0 15px 30px;
 }
 
@@ -76,21 +75,20 @@ img {
 
 /* Media Queries */
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 501px) {
   li {
     flex-basis: 33.3%;
   }
-
   .search-box {
-    width: 414px;
+    width: 415px;
   }
 }
 
-@media screen and (max-width: 501px) {
+@media screen and (min-width: 768px) {
   li {
-    flex-basis: 50%;
+    flex-basis: 25%;
   }
   .search-box {
-    width: 90%;
+    width: 480px;
   }
 }
