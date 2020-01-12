@@ -6,7 +6,7 @@
 
 .container {
   width: 95%;
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 40px 0;
 }
@@ -44,7 +44,7 @@ input {
   margin: 0 auto;
   width: 40%;
   height: 45px;
-  max-width: 480px;
+  width: 480px;
 }
 
 .search-icon {
@@ -73,4 +73,25 @@ li {
 
 img {
   width: 100%;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+  li {
+    flex-basis: 30%;
+  }
+
+  .search-box {
+    width: 414px;
+  }
+}
+
+@media screen and (max-width: 501px) {
+  li {
+    flex-basis: 48%;
+  }
+  .search-box {
+    width: 90%;
+  }
 }
