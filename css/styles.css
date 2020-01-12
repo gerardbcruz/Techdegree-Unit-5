@@ -63,12 +63,11 @@ ul {
   margin-top: 60px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 li {
-  flex-basis: 22%;
-  padding-bottom: 30px;
+  flex-basis: 25%;
+  padding: 0 15px 30px;
 }
 
 img {
@@ -79,7 +78,7 @@ img {
 
 @media screen and (max-width: 768px) {
   li {
-    flex-basis: 30%;
+    flex-basis: 33.3%;
   }
 
   .search-box {
@@ -89,7 +88,7 @@ img {
 
 @media screen and (max-width: 501px) {
   li {
-    flex-basis: 48%;
+    flex-basis: 50%;
   }
   .search-box {
     width: 90%;
